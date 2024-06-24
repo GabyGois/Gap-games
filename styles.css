@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #1ea8f8;
     line-height: 1.6;
 }
 
@@ -19,7 +19,7 @@ body {
 
 header {
     background-color: #333;
-    color: #fff;
+    color: #e43595;
     text-align: center;
     padding: 10px 0;
 }
@@ -41,7 +41,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #2ac016;
     text-decoration: none;
     font-size: 18px;
 }
@@ -51,7 +51,7 @@ nav ul li a:hover {
 }
 
 .main-content {
-    background-color: #fff;
+    background-color: #b40f0f;
     padding: 20px;
     margin-top: 20px;
     border-radius: 5px;
