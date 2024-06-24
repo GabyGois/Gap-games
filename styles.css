@@ -1,11 +1,10 @@
-/* Reset de estilos básico para garantir consistência entre navegadores */
+/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -13,111 +12,61 @@ body {
 }
 
 .container {
-    width: 90%;
-    max-width: 1200px;
+    width: 80%;
     margin: 0 auto;
-    padding: 0 20px;
+    overflow: hidden;
 }
 
-.header {
-    background-color: #000;
+header {
+    background-color: #333;
     color: #fff;
+    text-align: center;
     padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
 }
 
-.header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header h1 {
+    margin: 0;
+    font-size: 36px;
 }
 
-.logo {
-    font-size: 24px;
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-.nav-links {
-    list-style-type: none;
-    display: flex;
+nav ul li {
+    display: inline;
+    margin-left: 20px;
 }
 
-.nav-links li {
-    margin-right: 20px;
-}
-
-.nav-links li a {
+nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-weight: bold;
     font-size: 18px;
 }
 
-.nav-links li a:hover {
+nav ul li a:hover {
     text-decoration: underline;
 }
 
-.section {
-    padding: 80px 0;
-    text-align: center;
-}
-
-.section h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-.game {
-    margin-bottom: 40px;
+.main-content {
+    background-color: #fff;
     padding: 20px;
-    border: 1px solid #ccc;
+    margin-top: 20px;
     border-radius: 5px;
-    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.game img {
-    max-width: 100%;
-    border-radius: 5px;
-}
-
-.game h3 {
-    font-size: 24px;
-    margin: 10px 0;
-}
-
-.game p {
-    margin-bottom: 10px;
-}
-
-.game .price {
-    font-weight: bold;
-    font-size: 20px;
-    color: #007bff;
-}
-
-.game a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.game a:hover {
-    background-color: #0056b3;
-}
-
-.footer {
-    background-color: #000;
+footer {
+    background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 20px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
 }
 
