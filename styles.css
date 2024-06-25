@@ -11,6 +11,16 @@ body {
     line-height: 1.6;
 }
 
+:root {
+    --cor-de-fundo: #96BA68;
+    --cor-de-texto: #1a456d;
+    --verde: #0e6d1b;
+    --background: #96BA68;
+    --verde-claro: #DCEBC3;
+    --cor-botao: #136C11;
+    --preto: #000000;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
